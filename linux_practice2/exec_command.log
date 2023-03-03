@@ -1,0 +1,208 @@
+
+    1  exit
+    2  ls /
+    3  ls /usr
+    4  pwd
+    5  cd /root
+    6  pwd
+    7  cd usr
+    8  cd /usr
+    9  cd /home
+   10  mkdir test1
+   11  ls
+   12  cd /home
+   13  mkdir test2/test3
+   14  cd /home
+   15  mkdir -p test2/test3
+   16  ls test2
+   17  cd /home
+   18  touch test1/index.php
+   19  ls test1
+   20  cd /home/test1 && ls
+   21  cd /home/test1
+   22  cp index.php copy.php
+   23  ls
+   24  cd /home
+   25  cp -r test1 test4
+   26  ls
+   27  ls test4
+   28  cd /home
+   29  mv test2/test3 test3
+   30  ls
+   31  cd /home
+   32  mv test4 test1_copy
+   33  ls
+   34  cd /home
+   35  ls test1
+   36  rm test1/copy.php
+   37  ls test1
+   38  cd /home
+   39  rm -r test3
+   40  ls
+   41  cd /home
+   42  rm test1_copy/*.php
+   43  ls test1_copy
+   44  cd /home
+   45  echo '# Hello World' > README.md
+   46  cat README.md
+   47  echo '# Server Lesson' > README.md
+   48  cat README.md
+   49  cd /home
+   50  echo 'Linux Practice' >> README.md
+   51  echo '-----------------' >> README.md
+   52  cat README.md
+   53  vi README.md
+   54  cd /root
+   55  mkdir server_lesson && cd server_lesson
+   56  yum update -y && yum -y install git
+   57  git version
+   58  git init
+   59  touch first.txt
+   60  ls
+   61  mkdir linux_practice1
+   62  ls
+   63  cd /linux_practice1
+   64  mkdir linux_practice1/public
+   65  ls
+   66  ls linux_practice1
+   67  cd linux_practice1
+   68  cd public
+   69  touch index.php
+   70  ls
+   71  cp index.php index_bk.php
+   72  ls
+   73  git status
+   74  cd
+   75  cd /servser_lesson
+   76  cd /server_lesson
+   77  cd server_lesson
+   78  git status
+   79  git init
+   80  ls -a
+   81  git add .
+   82  git status
+   83  git commit -m 'public commit'
+   84  git config user.email "penginpeisin38@gmail.com"
+   85  git config user.name "sinpei"
+   86  git commit -m 'public commit'
+   87  git status
+   88  git remote add origin https://github.com/ShinpeiSuzuki/server_lesson.git
+   89  git remote -v
+   90  git push origin master
+   91  git push origin master
+   92  git push origin master
+   93  git config user.name
+   94  git push origin master
+   95  git push origin master
+   96  git push origin master
+   97  git push origin master
+   98  git config --global user.name "ShinpeiSuzuki"
+   99  git push origin master
+  100  exit
+  101  git status
+  102  cd
+  103  cd server_lesson
+  104  git status
+  105  git remote add origin https://github.com/ShinpeiSuzuki/server_lesson.git
+  106  git remote -v
+  107  git push origin master
+  108  git push origin master
+  109  git push origin master
+  110  ls
+  111  git branch
+  112  exit
+  113  exit
+  114  cd server_lesson
+  115  cd
+  116  cd server_lesson
+  117  ls
+  118  cat README.md
+  119  vi README.md
+  120  cat README.md
+  121  git satus
+  122  git status
+  123  git add.
+  124  git add .
+  125  git commit -m 'exercises1'
+  126  git push origin working
+  127  ls
+  128  vi README.md.swp
+  129  ls
+  130  ls
+  131  ls -a
+  132  rm .README.md.swp
+  133  ls
+  134  ls -a
+  135  ls
+  136  mkdir -p linux_practice2/documents
+  137  ls
+  138  cd linux_practice2
+  139  cd ..
+  140  cd /documents
+  141  cd linux_practice2/documents
+  142  touch gizumo{01~50}.md
+  143  sls
+  144  ls
+  145  rm gizumo{01~50}.md
+  146  ls
+  147  rm gizumo{01..50}.md
+  148  touch gizumo{01..50}.md
+  149  ls
+  150  git branch
+  151  cd ..
+  152  mkdir trash
+  153  ls
+  154  cd trash
+  155  mv documents/gizumo{20..40}.md gizumo{20..40}.md
+  156  mv /documents/gizumo{20..40}.md gizumo{20..40}.md
+  157  mv ./documents/gizumo{20..40}.md gizumo{20..40}.md
+  158  mv .documents/gizumo{20..40}.md gizumo{20..40}.md
+  159  mv ../documents/gizumo{20..40}.md gizumo{20..40}.md
+  160  mv documents/gizumo{20..40}.md
+  161  cd .
+  162  cd ..
+  163  mv documents/gizumo{20..40}.md trash
+  164  ls
+  165  cd trash
+  166  ls
+  167  cd ..
+  168  touch .gitignore
+  169  ls
+  170  ls -a
+  171  vi .gitignore
+  172  ls
+  173  ls -a
+  174  trach ls
+  175  cd trash
+  176  ls
+  177  cd ..
+  178  ls
+  179  history 300
+  180  vi .gitignore
+  181  ls
+  182  cd trash
+  183  ls
+  184  cd ..
+  185  ls
+  186  vi .gitignore
+  187  cd trash
+  188  ls
+  189  cd ..
+  190  vi .gitignore
+  191  cd trash
+  192  ls
+  193  cd ..
+  194  ls
+  195  vi .gitignore
+  196  cd trash
+  197  ls
+  198  cd ..
+  199  touch exec_command.log
+  200  ls
+  201  history300 >> exec_command.log
+  202  echo history300 >> exec_command.log
+  203  cat exec_command.log
+  204  history300
+  205  history 300
+  206  vi exec_command.log
+  207  history 300 >> exec_command.log
